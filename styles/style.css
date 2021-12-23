@@ -175,7 +175,7 @@
 .table__cell {
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: 250px;
 }
 
 .table__cell_theme_white {
@@ -286,6 +286,7 @@
 
 .table__cell_theme_dark {
   margin-top: 80px;
+  width: 200px;
 }
 
 .table__heading_theme_dark {
