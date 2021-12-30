@@ -7,10 +7,6 @@
       name="description"
       content="Страница про современные и эффективные подходы к обучению"
     />
-    <meta
-      name="keywords"
-      content="Подходы к обучению, метод Феймана, Джош Кауфман, Научиться учиться"
-    />
     <meta name="author" content="Рыбаков Илья" />
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
@@ -22,7 +18,7 @@
         <div class="logo logo_place_header"></div>
         <h1 class="header__title">Научиться учиться</h1>
 
-        <p class="page__subtitle header__subtitle">
+        <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?<a href="#feynman" class="header__link">
             Узнать &rarr;</a
@@ -30,19 +26,19 @@
         </p>
 
         <img
-          class="page__main-illustration header__main-illustration"
+          class="header__main-illustration"
           src="./images/header-image.png"
           alt="«Опять двойка» — картина художника Фёдора Решетникова"
         />
 
-        <div class="page_square-pic header__square-pic"></div>
+        <div class="header__square-pic"></div>
       </header>
 
       <main class="content">
         <section class="description">
           <div class="description__two-columns two-columns">
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
-            <div class="main-text">
+            <div class="two-columns__main-text">
               <p class="two-columns__paragraph">
                 Ни в школе, ни в институте нас не учат тому, как правильно
                 изучать материал. Мы готовимся к экзаменам и учим билеты. Мы
@@ -50,9 +46,9 @@
                 но часто в итоге это не дает нам реального знания. Зубрежка
                 быстро выветривается и не приносит пользы.
               </p>
-              <p class="two-columns__span-accent">
-                <span class="two-columns__conclusion">Вывод:</span> учиться тоже
-                нужно уметь, но почему-то этому мало где учат. Что с этим
+              <p class="two-columns__paragraph">
+                <span class="two-columns__span-accent">Вывод:</span> учиться
+                тоже нужно уметь, но почему-то этому мало где учат. Что с этим
                 делать?
               </p>
               <p class="two-columns__paragraph">
@@ -67,9 +63,9 @@
         <section class="digits">
           <h2 class="section-title section-title_theme_white">Цифры и факты</h2>
 
-          <h2 class="section-subtitle section-subtitle_theme_white">
+          <p class="section-subtitle section-subtitle_theme_white">
             Про учёбу и мозг
-          </h2>
+          </p>
 
           <ul class="table table_theme_white">
             <li class="table__cell table__cell_theme_white">
@@ -154,7 +150,7 @@
 
         <section id="feynman" class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
-          <h2 class="feynman__subtitle">Выучить и не забыть.</h2>
+          <p class="feynman__subtitle">Выучить и не забыть.</p>
 
           <img
             class="feynman__image"
@@ -163,7 +159,7 @@
           />
 
           <a href="https://ideanomics.ru/articles/7981" class="feynman__link"
-            >Подробнее &#8594;</a
+            >Подробнее &rarr;</a
           >
         </section>
 
@@ -172,9 +168,9 @@
             Принципы обучения
           </h2>
 
-          <h2 class="section-subtitle section-subtitle_theme_dark">
+          <p class="section-subtitle section-subtitle_theme_dark">
             От Джоша Кауфмана
-          </h2>
+          </p>
 
           <ul class="table table_theme_dark">
             <li class="table__cell table__cell_theme_dark">
@@ -253,12 +249,12 @@
       </main>
 
       <footer class="footer">
-        <ul class="footer__columns">
-          <li class="footer__column_content_copyright">
+        <div class="footer__columns">
+          <div class="footer__column footer__column_content_copyright">
             <div class="logo logo_place_footer"></div>
-            <div class="footer__author">&copy; 2021. Рыбаков Илья</div>
-          </li>
-          <li class="footer__column_content_info">
+            <p class="footer__author">&copy; 2021. Рыбаков Илья</p>
+          </div>
+          <nav class="footer__column footer__column_content_info">
             <h3 class="footer__column-heading">О Практикуме</h3>
             <ul class="footer__column-links">
               <li>
@@ -281,8 +277,8 @@
                 >
               </li>
             </ul>
-          </li>
-          <li class="footer__column_content_social">
+          </nav>
+          <div class="footer__column footer__column_content_social">
             <h3 class="footer__column-heading">Соцсети</h3>
             <ul class="footer__column-links">
               <li>
@@ -313,8 +309,8 @@
                 >
               </li>
             </ul>
-          </li>
-        </ul>
+          </div>
+        </div>
       </footer>
     </div>
   </body>
