@@ -1,0 +1,7 @@
+.table__text_theme_white {
+  margin-bottom: 20px;
+}
+
+.table__text_theme_white:last-child {
+  margin-bottom: 0;
+}

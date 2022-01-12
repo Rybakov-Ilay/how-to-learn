@@ -1,0 +1,9 @@
+@import "_theme/section-subtitle_theme_white.css";
+.section-subtitle {
+  display: flex;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  justify-content: center;
+}
