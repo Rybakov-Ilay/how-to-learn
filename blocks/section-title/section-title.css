@@ -1,0 +1,10 @@
+@import "_theme/section-title_theme_white.css";
+
+.section-title {
+  display: flex;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  justify-content: center;
+}

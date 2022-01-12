@@ -1,0 +1,6 @@
+@import "_place/logo_place_header.css";
+
+.logo {
+  background-size: contain;
+  background-repeat: no-repeat;
+}

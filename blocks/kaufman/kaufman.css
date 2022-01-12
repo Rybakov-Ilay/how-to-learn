@@ -1,0 +1,16 @@
+@import "../section-title/_theme/section-title_theme_dark.css";
+@import "../section-subtitle/_theme/section-subtitle_theme_dark.css";
+@import "../table/_theme/table_theme_dark.css";
+@import "../table/__text/_theme/table__text_theme_dark.css";
+@import "../table/__heading/_theme/table__heading_theme_dark.css";
+@import "../table/__cell/_theme/table__cell_theme_dark.css";
+@import "__triangle/kaufman__triangle.css";
+
+.kaufman {
+  background: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
