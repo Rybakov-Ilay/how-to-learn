@@ -1,7 +1,7 @@
-@import "__title/feynman__title.css";
-@import "__subtitle/feynman__subtitle.css";
-@import "__image/feynman__image.css";
-@import "__link/feynman__link.css";
+@import url(__title/feynman__title.css);
+@import url(__subtitle/feynman__subtitle.css);
+@import url(__image/feynman__image.css);
+@import url(__link/feynman__link.css);
 
 .feynman {
   display: flex;
