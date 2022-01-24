@@ -6,6 +6,7 @@
   margin: 0;
   text-decoration: none;
   transition: opacity 0.3s;
+  align-self: flex-start;
 }
 
 .khan__buy-link:hover {

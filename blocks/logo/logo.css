@@ -1,6 +1,9 @@
-@import "_place/logo_place_header.css";
-
 .logo {
   background-size: contain;
   background-repeat: no-repeat;
+  transition: opacity 0.3s;
+}
+
+.logo:hover {
+  opacity: 0.5;
 }
